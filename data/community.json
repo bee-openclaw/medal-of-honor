@@ -1,0 +1,29 @@
+{
+  "votes": {
+    "steve-jobs": 2,
+    "linus-torvalds": 2,
+    "steve-wozniak": 1,
+    "tim-berners-lee": 1,
+    "alan-turing": 1
+  },
+  "nominations": [
+    {
+      "id": "afaad52e-564a-4091-9117-149645b97038",
+      "name": "Rosalind Franklin",
+      "category": "science",
+      "reason": "Discovered the structure of DNA through X-ray crystallography",
+      "submittedBy": "Test User",
+      "submittedAt": "2026-03-25T23:47:25.642Z",
+      "status": "pending"
+    },
+    {
+      "id": "306baac6-65dd-45bf-ba21-dc75a0e6a2a7",
+      "name": "Bilal Ahmed",
+      "category": "tech",
+      "reason": "Great",
+      "submittedBy": "Bilal Ahmed",
+      "submittedAt": "2026-03-25T23:59:32.385Z",
+      "status": "pending"
+    }
+  ]
+}
