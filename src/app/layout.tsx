@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://medal-of-honor.vercel.app"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://hallofhonor.world"
   ),
   openGraph: {
     type: "website",

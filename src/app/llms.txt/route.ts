@@ -7,11 +7,11 @@ export function GET() {
   const categoryMap = new Map(categories.map((c) => [c.id, c.label]));
 
   const lines = [
-    "# Medal of Honor",
+    "# Hall of Honor",
     "",
     "> Honoring the people who fundamentally changed the way we live and work.",
     "",
-    "Medal of Honor is a community-driven platform celebrating visionary individuals",
+    "Hall of Honor is a community-driven platform celebrating visionary individuals",
     "whose contributions fundamentally shaped modern society. It features detailed",
     "biographical profiles with interactive timelines, impact metrics, key contributions,",
     "and community nominations and voting.",

@@ -5,7 +5,7 @@ import { Medal } from "@/components/ui/Medal";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "About Medal of Honor — honoring those who fundamentally changed society.",
+    "About Hall of Honor — honoring those who fundamentally changed society.",
 };
 
 export default function AboutPage() {
@@ -17,12 +17,12 @@ export default function AboutPage() {
             <Medal className="w-20 h-20" />
           </div>
           <h1 className="text-center text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
-            About Medal of Honor
+            About Hall of Honor
           </h1>
           <div className="mt-8 space-y-6 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
             <p>
               <strong className="text-zinc-900 dark:text-zinc-100">
-                Medal of Honor
+                Hall of Honor
               </strong>{" "}
               celebrates the remarkable individuals who fundamentally changed
               the way people live and work. These are not just inventors or
@@ -36,31 +36,26 @@ export default function AboutPage() {
               represents a turning point in human history.
             </p>
             <p>
-              We started with technology pioneers because their impact is
-              uniquely measurable and felt by billions daily. But fundamental
-              change comes from every field — science, medicine, civil rights,
-              arts, and exploration. We plan to expand into all of these
-              categories.
+              Our honorees span six categories — Technology, Science, Medicine,
+              Civil Rights, Arts &amp; Culture, and Exploration — because
+              fundamental change comes from every field. Each profile features
+              interactive timelines, impact metrics, key contributions, and
+              notable quotes.
             </p>
-
-            <div className="rounded-xl border border-amber-200 bg-amber-50/50 p-6 dark:border-amber-900/50 dark:bg-amber-950/20">
-              <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
-                Coming Soon
-              </h2>
-              <ul className="mt-3 list-inside list-disc space-y-1 text-base">
-                <li>Community nominations and voting</li>
-                <li>
-                  Expanded categories: Science, Medicine, Civil Rights, Arts,
-                  and Exploration
-                </li>
-                <li>Detailed impact metrics and interactive timelines</li>
-              </ul>
-            </div>
-
+            <p>
+              The community plays an active role through nominations and voting.
+              Know someone who deserves to be honored? Head to the{" "}
+              <a
+                href="/nominate"
+                className="text-amber-600 underline hover:text-amber-700 dark:text-amber-400 dark:hover:text-amber-300"
+              >
+                nominations page
+              </a>{" "}
+              and make your case.
+            </p>
             <p className="text-sm text-zinc-500 dark:text-zinc-500">
-              Medal of Honor is an open project dedicated to recognizing those
-              whose contributions transcend their time. If you know someone who
-              deserves to be honored, the nominations feature is coming soon.
+              Hall of Honor is an open project dedicated to recognizing those
+              whose contributions transcend their time.
             </p>
           </div>
         </div>

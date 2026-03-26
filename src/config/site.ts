@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Medal of Honor",
+  name: "Hall of Honor",
   description:
     "Honoring the people who fundamentally changed the way we live and work.",
   nav: [

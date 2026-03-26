@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://medal-of-honor.vercel.app/sitemap.xml
+Sitemap: https://hallofhonor.world/sitemap.xml

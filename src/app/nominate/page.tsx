@@ -20,7 +20,7 @@ export default function NominatePage() {
             </h1>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
               Know someone who fundamentally changed the way people live and
-              work? Nominate them for the Medal of Honor.
+              work? Nominate them for the Hall of Honor.
             </p>
           </div>
 

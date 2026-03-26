@@ -15,7 +15,7 @@ export function VoteButton({
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    const hasVoted = localStorage.getItem(`moh-voted-${slug}`);
+    const hasVoted = localStorage.getItem(`hoh-voted-${slug}`);
     if (hasVoted) setVoted(true);
 
     fetch(`/api/votes/${slug}`)
@@ -42,7 +42,7 @@ export function VoteButton({
       const data = await res.json();
       setCount(data.count);
       setVoted(true);
-      localStorage.setItem(`moh-voted-${slug}`, "1");
+      localStorage.setItem(`hoh-voted-${slug}`, "1");
     } catch {
       // ignore
     } finally {
